@@ -25,7 +25,6 @@ go.work.sum
 debug/
 
 # Environment variables
-.env
 .env.local
 
 # PostgreSQL-related
