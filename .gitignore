@@ -1,0 +1,44 @@
+# Go-specific ignores
+/bin/
+/pkg/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.a
+
+# Go modules
+go.sum
+go.work
+go.work.sum
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.iml
+
+# Logs & Debug
+*.log
+debug/
+
+# Environment variables
+.env
+.env.local
+
+# PostgreSQL-related
+pgdata/
+*.sql
+*.db
+
+# Swagger generated docs
+/docs/
+swagger.yaml
+swagger.json
+swagger/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
